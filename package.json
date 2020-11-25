@@ -4,6 +4,7 @@
     "description": "Guided project for **Node API** module 4.",
     "main": "index.js",
     "scripts": {
+        "watch": "cross-env COHORT=Web36 nodemon index.js",
         "server": "nodemon index.js"
     },
     "repository": {
@@ -23,6 +24,7 @@
         "sqlite3": "^5.0.0"
     },
     "devDependencies": {
+        "cross-env": "^7.0.2",
         "nodemon": "^2.0.4"
     }
 }
